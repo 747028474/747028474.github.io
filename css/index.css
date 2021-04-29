@@ -5,8 +5,42 @@ html {
 }
 
 body {
-  margin: 0
+  background: rgba(255, 255, 255, .5);
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
+  margin: 0;
 }
+
+/*a标签*/
+a:hover {
+  text-decoration: none;
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+/*按钮*/
+button:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+/*i标签*/
+i:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+/*up酱*/
+#upj:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+/*页脚a标签*/
+#footer-wrap a:hover {
+  text-decoration: none;
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+/*分页器*/
+#pagination .page-number:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+/*头部的导航栏*/
+#nav .site-page:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
 
 main {
   display: block
@@ -1409,7 +1443,7 @@ hr:before {
   left: 5%;
   z-index: 1;
   color: var(--hr-before-color);
-  content: '\f0c4';
+  content: '\f197';
   font-size: 20px;
   line-height: 1;
   -webkit-transition: all 1s ease-in-out;
@@ -3475,73 +3509,75 @@ blockquote footer cite:before {
     font-size: 2.85em;
   }
 }
+#page-header #此处修改为白色,
+#page-header 字体大小,
 #page-header #site-subtitle {
   color: var(--light-grey);
   font-size: 1.15em;
 }
 @media screen and (min-width: 768px) {
-  #page-header #site-subtitle {
+  #字体大小 {
     font-size: 1.72em;
   }
 }
-#page-header #site_social_icons {
+#site_social_icons {
   display: none;
   margin: 0 auto;
   width: 15rem;
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  #page-header #site_social_icons {
+  #site_social_icons {
     display: block;
   }
 }
-#page-header #site_social_icons .social-icon {
+#site_social_icons .social-icon {
   margin: 0 0.5rem;
   color: var(--light-grey);
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   font-size: 1.43em;
   cursor: pointer;
 }
-#page-header #scroll-down {
+#scroll-down {
   position: absolute;
   bottom: 0;
   width: 100%;
   cursor: pointer;
 }
-#page-header #scroll-down .scroll-down-effects {
+#scroll-down .scroll-down-effects {
   position: relative;
   width: 100%;
   color: var(--light-grey);
   font-size: 30px;
 }
-#page-header.not-home-page {
+.not-home-page {
   height: 20rem;
 }
 @media screen and (max-width: 768px) {
-  #page-header.not-home-page {
+  .not-home-page {
     height: 14rem;
   }
 }
-#page-header #page-site-info {
+#page-site-info {
   position: absolute;
   top: 10rem;
   padding: 0 0.5rem;
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  #page-header #page-site-info {
+  #page-site-info {
     top: 7rem;
   }
 }
-#page-header.post-bg {
+.post-bg {
   height: 20rem;
 }
 @media screen and (max-width: 768px) {
-  #page-header.post-bg {
+  .post-bg {
     height: 18rem;
   }
 }
-#page-header.post-bg:before {
+.post-bg:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -3551,7 +3587,7 @@ blockquote footer cite:before {
   background-color: rgba(0,0,0,0.5);
   content: '';
 }
-#page-header #post-info {
+#post-info {
   position: absolute;
   bottom: 5rem;
   padding: 0 8%;
@@ -3559,32 +3595,32 @@ blockquote footer cite:before {
   text-align: center;
 }
 @media screen and (max-width: 900px) {
-  #page-header #post-info {
+  #post-info {
     bottom: 1.5rem;
     text-align: left;
   }
 }
 @media screen and (max-width: 768px) {
-  #page-header #post-info {
+  #post-info {
     bottom: 1.1rem;
     padding: 0 1.1rem;
   }
 }
-#page-header.not-top-img {
+.not-top-img {
   margin-bottom: 0.5rem;
   height: 60px;
   background: 0;
 }
-#page-header.not-top-img #nav {
+.not-top-img #nav {
   background: rgba(255,255,255,0.8);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
   box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
 }
-#page-header.not-top-img #nav a {
+.not-top-img #nav a {
   color: var(--font-color);
   text-shadow: none;
 }
-#page-header.nav-fixed #nav {
+.nav-fixed #nav {
   position: fixed;
   top: -60px;
   z-index: 91;
@@ -3597,18 +3633,18 @@ blockquote footer cite:before {
   -ms-transition: -ms-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
-#page-header.nav-fixed #nav a,
-#page-header.nav-fixed #nav #site-name,
-#page-header.nav-fixed #nav #toggle-menu {
+.nav-fixed #nav a,
+.nav-fixed #nav #site-name,
+.nav-fixed #nav #toggle-menu {
   color: var(--font-color);
   text-shadow: none;
 }
-#page-header.nav-fixed #nav a:hover,
-#page-header.nav-fixed #nav #site-name:hover,
-#page-header.nav-fixed #nav #toggle-menu:hover {
+.nav-fixed #nav a:hover,
+.nav-fixed #nav #site-name:hover,
+.nav-fixed #nav #toggle-menu:hover {
   color: #49b1f5;
 }
-#page-header.nav-visible #nav {
+.nav-visible #nav {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -3620,7 +3656,7 @@ blockquote footer cite:before {
   -ms-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
 }
-#page-header.nav-visible + .layout > .aside-content > .sticky_layout {
+.nav-visible + .layout > .aside-content > .sticky_layout {
   top: 70px;
   -webkit-transition: top 0.5s;
   -moz-transition: top 0.5s;
@@ -5982,36 +6018,39 @@ blockquote.pullquote.right {
   display: none;
   background: rgba(0,0,0,0.6);
 }
-#algolia-search .search-dialog {
+#local-search .search-dialog {
   -webkit-animation: titlescale 0.5s;
   -moz-animation: titlescale 0.5s;
   -o-animation: titlescale 0.5s;
   -ms-animation: titlescale 0.5s;
   animation: titlescale 0.5s;
 }
-#algolia-search .search-dialog .ais-search-box {
+#local-search .search-dialog .local-search-box {
   margin: 0 auto;
   max-width: 100%;
   width: 100%;
 }
-#algolia-search .search-dialog .ais-search-box input {
+#local-search .search-dialog .local-search-box input {
   padding: 0.25rem 0.7rem;
+  width: 100%;
   outline: none;
   border: 2px solid #49b1f5;
   border-radius: 2rem;
   background: var(--search-bg);
   color: var(--search-input-color);
+  -webkit-appearance: none;
 }
-#algolia-search .search-dialog .ais-hits--item.algolia-hit-item {
+#local-search .search-dialog .local-search__hit-item {
   position: relative;
   padding-left: 1.2rem;
+  line-height: 1.7;
 }
-#algolia-search .search-dialog .ais-hits--item.algolia-hit-item:hover:before {
+#local-search .search-dialog .local-search__hit-item:hover:before {
   border-color: #ff7242;
 }
-#algolia-search .search-dialog .ais-hits--item.algolia-hit-item:before {
+#local-search .search-dialog .local-search__hit-item:before {
   position: absolute;
-  top: 0.53em;
+  top: 0.45em;
   left: 0;
   width: 0.5em;
   height: 0.5em;
@@ -6026,41 +6065,30 @@ blockquote.pullquote.right {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#algolia-search .search-dialog .ais-hits--item.algolia-hit-item a {
+#local-search .search-dialog .local-search__hit-item a {
   display: block;
   color: var(--search-result-title);
+  font-weight: 600;
   cursor: pointer;
 }
-#algolia-search .search-dialog .ais-hits--item.algolia-hit-item a:hover {
+#local-search .search-dialog .local-search__hit-item a:hover {
   color: #49b1f5;
 }
-#algolia-search .search-dialog .ais-hits--item.algolia-hit-item em {
+#local-search .search-dialog .local-search__hit-item .search-result {
+  margin: 0 0 0.4rem;
+  word-break: break-all;
+}
+#local-search .search-dialog .local-search__hit-item .search-keyword {
   color: #f47466;
   font-weight: bold;
 }
-#algolia-search .search-dialog .ais-pagination.pagination {
-  margin: 0.8rem 0 0;
-  padding: 0;
-  text-align: center;
+#local-search .search-dialog .search-result-list {
+  overflow-y: auto;
+  max-height: 10.5rem;
 }
-#algolia-search .search-dialog .ais-pagination.pagination .ais-pagination--item {
-  margin: 0 0.2rem;
-  padding: 0;
-}
-#algolia-search .search-dialog .ais-pagination.pagination .ais-pagination--item a {
-  display: inline-block;
-  min-width: 1.2rem;
-  height: 1.2rem;
-  text-align: center;
-  line-height: 1.2rem;
-}
-#algolia-search .search-dialog .ais-pagination.pagination .ais-pagination--item.current a {
-  background: #00c4b6;
-  color: #eee;
-  cursor: default;
-}
-#algolia-search .search-dialog .algolia-logo {
-  padding-top: 2px;
-  width: 4rem;
-  height: 1.5rem;
+@media screen and (max-width: 768px) {
+  #local-search .search-dialog .search-result-list {
+    padding-bottom: 2rem;
+    max-height: 75vh !important;
+  }
 }
